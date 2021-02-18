@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
@@ -10,21 +12,30 @@ h2, h3 {
     color: #00a2c6;
 }
 
-article > p, section > p {
-    text-indent: 2em;
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
-p {
+nav a:hover {
+    font-weight: bold;
+}
+
+article > p, section > p {
     text-align: justify;
+    text-indent: 2em;
     line-height: 1.5em;
+}
+
+.profile header {
+    text-align: center;
 }
 
 footer {
     padding: 20px;
     color: white;
     background-color: #00a2c6;
-}
-
-footer > p {
     text-align: center;
+    font-weight: bold;
 }
