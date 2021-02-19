@@ -22,14 +22,30 @@ nav a:hover {
     font-weight: bold;
 }
 
+li {
+    display: inline;
+    margin-left: 5px;
+}
+
 article > p, section > p {
     text-align: justify;
     text-indent: 2em;
     line-height: 1.5em;
 }
 
+.feature-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .profile header {
     text-align: center;
+}
+
+.profile img {
+    width: 200px;
 }
 
 footer {
