@@ -4,6 +4,14 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+}
+
 h1 {
     text-transform: uppercase;
 }
@@ -12,19 +20,26 @@ h2, h3 {
     color: #00a2c6;
 }
 
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+}
+
 nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: white;
 }
 
 nav a:hover {
     font-weight: bold;
 }
 
-li {
+nav li {
     display: inline;
-    margin-left: 5px;
+    list-style-type: none;
+    margin-right: 20px;
 }
 
 .card {
